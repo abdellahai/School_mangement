@@ -1,5 +1,3 @@
-from school import app
-
-if __name__ == '__main__':
-    import uvicorn
-    uvicorn.run(app)
+from schoolmanager import app
+import uvicorn 
+uvicorn.run(app)
